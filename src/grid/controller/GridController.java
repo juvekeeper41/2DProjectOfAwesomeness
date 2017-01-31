@@ -4,13 +4,18 @@ import javax.swing.JOptionPane;
 
 public class GridController 
 {
-	private GridFrame appFrame;
+	private GridFrame appFrame;	
 	
 	public GridController()
 	{
 		//create model objects here!
 		
-		appFrame = this;
+		appFrame = new GridFrame(this);
+	}
+	
+	public void start()
+	{
+		
 	}
 	
 	private void start()

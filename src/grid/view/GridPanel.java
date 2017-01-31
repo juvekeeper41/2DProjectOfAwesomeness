@@ -1,7 +1,7 @@
 package grid.view;
 
 import javax.swing.*;
-import 
+import grid.controller.GridController;
 
 public class GridPanel extends JPanel
 {
